@@ -241,3 +241,33 @@ blue);
   75% {opacity: 0.3;}
   to {background: red;}
 }
+
+.rightsection {
+  padding: 40px;
+  background-image: linear-gradient(195deg, 
+
+rgba(80, 200, 120, 0.5), rgba(8, 49, 58, 0.5));
+  border-radius: 10px;
+  border: solid #5CD85A;
+  position: absolute;
+  right: 20;
+  top: 20;
+  height: 70%;
+  width: 20%;
+}
+
+#notify {
+  padding: 10px;
+  background-image: linear-gradient(195deg, 
+
+rgba(80, 200, 120, 0.5), rgba(8, 49, 58, 0.5));
+  border-radius: 10px;
+  border: solid #5CD85A;
+  position: absolute;
+  right: 19;
+  top: 20;
+  height: 5%;
+  width: 80%;
+  color: white;
+  text-align: center;
+}
