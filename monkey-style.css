@@ -4,12 +4,8 @@
   border-radius: 10px;
   height: 200px;
   width: 100px;
-  background-image: linear-gradient(195deg, 
-
-rgba(95, 216, 95, 0.5), rgba(92, 216, 90, 0.5));
-  /*background-image: url("my-hero-
-
-academia.jpg");*/
+  background-image: linear-gradient(195deg, rgba(95, 216, 95, 0.5), rgba(92, 216, 90, 0.5));
+  /*background-image: url("my-hero-academia.jpg");*/
   color: white;
   text-align: center;
    position:absolute;
@@ -22,9 +18,7 @@ academia.jpg");*/
 }
 
 #one{
-  background-image: linear-gradient(195deg, 
-
-cyan, green);
+  background-image: linear-gradient(195deg, cyan, green);
   color: black;
   border: solid green;
   position: absolute;
@@ -32,9 +26,7 @@ cyan, green);
   top: 2px;
 }
 #two{
-  background-image: linear-gradient(195deg, 
-
-cyan, green);
+  background-image: linear-gradient(195deg, cyan, green);
   color: black;
   border: solid green;
   position: absolute;
@@ -42,9 +34,7 @@ cyan, green);
   top: 2px;
 }
 #but{
-  background-image: linear-gradient(195deg, 
-
-green, cyan);
+  background-image: linear-gradient(195deg, green, cyan);
   color: black;
   border: solid green;
   position: absolute;
@@ -57,12 +47,8 @@ green, cyan);
   border-radius: 10px;
   height: 80px;
   width: 100px;
-  background-image: linear-gradient(195deg, 
-
-rgba(80, 200, 120, 0.5), rgba(8, 49, 58, 0.5));
-  /*background-image: url("my-hero-
-
-academia.jpg");*/
+  background-image: linear-gradient(195deg, rgba(80, 200, 120, 0.5), rgba(8, 49, 58, 0.5));
+  /*background-image: url("my-hero-academia.jpg");*/
   color: white;
   text-align: center;
    position:absolute;
@@ -72,20 +58,14 @@ academia.jpg");*/
 }
 
 .contain p {
-  background: -webkit-linear-gradient
-
-(100deg,blue,red);
+  background: -webkit-linear-gradient(100deg,blue,red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 body {
-   /*background-image: linear-gradient(0deg, 
-
-#FF00FF, indigo);*/
-  background-image: url("my-hero-
-
-academia.jpg");
+   /*background-image: linear-gradient(0deg, #FF00FF, indigo);*/
+  background-image: url("my-hero-academia.jpg");
   background-size: cover;
 }
 
@@ -130,9 +110,7 @@ academia.jpg");
   position: absolute;
   top: 60;
   right: 57;
-  border-radius:50px 50px 50px 50px / 100px 
-
-100px 50px 50px;
+  border-radius:50px 50px 50px 50px / 100px 100px 50px 50px;
   width:7px;
   height:17px;
   background: black;
@@ -197,9 +175,7 @@ academia.jpg");
 }
 
 #tile1 {
-  background: linear-gradient(120deg, red, 
-
-blue);
+  background: linear-gradient(120deg, red, blue);
   padding: 5px;
   border-radius: 10px;
   position: absolute;
@@ -212,9 +188,7 @@ blue);
   animation-iteration-count: infinite;
 }
 #tile2 {
-  background: linear-gradient(120deg, red, 
-
-blue);
+  background: linear-gradient(120deg, red, blue);
   border-radius: 10px;
   padding: 5px;
   position: absolute;
@@ -244,30 +218,44 @@ blue);
 
 .rightsection {
   padding: 40px;
-  background-image: linear-gradient(195deg, 
-
-rgba(80, 200, 120, 0.5), rgba(8, 49, 58, 0.5));
+  background-image: linear-gradient(195deg, rgba(80, 200, 120, 0.5), rgba(8, 49, 58, 0.5));
   border-radius: 10px;
   border: solid #5CD85A;
   position: absolute;
-  right: 20;
+  right: 80;
   top: 20;
   height: 70%;
-  width: 20%;
+  width: 150px;
 }
 
-#notify {
+#notifypane {
   padding: 10px;
-  background-image: linear-gradient(195deg, 
-
-rgba(80, 200, 120, 0.5), rgba(8, 49, 58, 0.5));
-  border-radius: 10px;
+  background-image: linear-gradient(195deg, rgba(80, 200, 120, 0.5), rgba(8, 49, 58, 0.5));
+  border-radius: 20px;
   border: solid #5CD85A;
   position: absolute;
-  right: 19;
-  top: 20;
-  height: 5%;
-  width: 80%;
+  left: 5;
+  top: 5;
+  height: 15px;;
+  width: 60%;
   color: white;
   text-align: center;
 }
+
+#image {
+   height: 30px;
+   width: 30px;
+   position: absolute;
+   top: 15%;
+   right: 5%;
+}
+#picture {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background: url('monkey.jpg');
+  background-size: cover;
+  position: absolute;
+  right: 10;
+  top: 13;
+} 
