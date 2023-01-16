@@ -65,7 +65,7 @@
 
 body {
    /*background-image: linear-gradient(0deg, #FF00FF, indigo);*/
-  background-image: url("my-hero-academia.jpg");
+  background-image: url("./my-hero-academia.jpg");
   background-size: cover;
 }
 
